@@ -8,7 +8,7 @@ from openai.types.responses import ResponseTextDeltaEvent
 from dotenv import load_dotenv
 
 # Load environment variables from .env
-load_dotenv()
+load_dotenv(override=True)
 
 app = FastAPI()
 
