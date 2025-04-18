@@ -1,0 +1,17 @@
+# Python virtual environment
+agents-python/.venv/
+
+# Environment variables
+agents-python/.env
+.env
+
+# Python cache
+**/__pycache__/
+**/*.py[cod]
+
+# Logs
+*.log
+
+# IDE/editor configs
+.vscode/
+.idea/
